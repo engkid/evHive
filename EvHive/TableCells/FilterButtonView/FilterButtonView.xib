@@ -34,7 +34,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.94117647059999998" green="0.94901960780000005" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DMx-W6-27I" secondAttribute="trailing" constant="16" id="8o8-UN-YL5"/>
                 <constraint firstItem="AJU-eL-B50" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="AAT-Rx-bgp"/>
@@ -45,6 +45,9 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="filterButtonView" destination="DMx-W6-27I" id="eRb-xc-c05"/>
+            </connections>
             <point key="canvasLocation" x="33.5" y="54"/>
         </view>
     </objects>

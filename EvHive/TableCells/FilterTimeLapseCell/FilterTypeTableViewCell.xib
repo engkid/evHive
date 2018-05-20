@@ -19,27 +19,47 @@
                 <rect key="frame" x="0.0" y="0.0" width="208" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Past 24 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qh-hd-jB2">
-                        <rect key="frame" x="51" y="11" width="106" height="21"/>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="BSP-CV-v07">
+                        <rect key="frame" x="0.0" y="0.0" width="208" height="44"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0Mg-4S-JAT">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roundedRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="bE6-LF-D78">
+                        <rect key="frame" x="16" y="2" width="177" height="39"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWS-K2-50F">
+                        <rect key="frame" x="58.5" y="11" width="91.5" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bE6-LF-D78">
-                        <rect key="frame" x="16" y="2" width="177" height="39"/>
-                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="bE6-LF-D78" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="5Vs-CO-urZ"/>
+                    <constraint firstItem="BSP-CV-v07" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9m5-jm-1qp"/>
                     <constraint firstAttribute="trailing" secondItem="bE6-LF-D78" secondAttribute="trailing" constant="15" id="Cl8-ph-6tP"/>
-                    <constraint firstItem="4Qh-hd-jB2" firstAttribute="centerX" secondItem="bE6-LF-D78" secondAttribute="centerX" id="g2U-cB-p47"/>
+                    <constraint firstItem="BSP-CV-v07" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Q0s-CL-IJU"/>
+                    <constraint firstAttribute="trailing" secondItem="BSP-CV-v07" secondAttribute="trailing" id="gie-eK-sz3"/>
                     <constraint firstItem="bE6-LF-D78" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="jRC-Zu-jOK"/>
+                    <constraint firstAttribute="bottom" secondItem="BSP-CV-v07" secondAttribute="bottom" constant="-0.5" id="kGM-ER-CQY"/>
+                    <constraint firstItem="eWS-K2-50F" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="koS-lR-wwW"/>
                     <constraint firstAttribute="bottom" secondItem="bE6-LF-D78" secondAttribute="bottom" constant="2.5" id="oxC-f5-H6C"/>
-                    <constraint firstItem="4Qh-hd-jB2" firstAttribute="centerY" secondItem="bE6-LF-D78" secondAttribute="centerY" id="wWU-wA-Tns"/>
+                    <constraint firstItem="eWS-K2-50F" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="wTe-t5-mx3"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="BSP-CV-v07" id="3W9-x9-gp3"/>
+            </connections>
             <point key="canvasLocation" x="-22" y="54"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="roundedRectangle" width="402" height="125"/>
+    </resources>
 </document>

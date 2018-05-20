@@ -13,6 +13,7 @@ class FilterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableView: UITableView!
     
     let tableSectionsArray = [0,1,1,2,1,1,1,1]
+    let nib = UINib(nibName: "FilterButtonView", bundle: Bundle.main)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +21,17 @@ class FilterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     fileprivate func tableViewConfiguration(){
+        guard let view = (self.nib.instantiate(withOwner: self, options: nil).first as? UIView) as? FilterButtonView else {
+            return
+        }
+        
         self.tableView.register(UINib(nibName: "FilterTypeTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "FilterTypeTableViewCell")
         self.tableView.register(UINib(nibName: "ExperienceBarTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "ExperienceBarTableViewCell")
         self.tableView.register(UINib(nibName: "FilterSortTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "FilterSortTableViewCell")
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        
+        self.tableView.tableFooterView = view
     }
     
     fileprivate func filterSortCell(_ tableView: UITableView) -> UITableViewCell {
