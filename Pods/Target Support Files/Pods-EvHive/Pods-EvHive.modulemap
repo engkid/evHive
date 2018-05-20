@@ -1,0 +1,6 @@
+framework module Pods_EvHive {
+  umbrella header "Pods-EvHive-umbrella.h"
+
+  export *
+  module * { export * }
+}

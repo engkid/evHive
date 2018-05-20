@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0DAAED20B1AF29003C9BDF /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0DAAEC20B1AF29003C9BDF /* FilterViewController.swift */; };
+		1E0DAAF120B1BEA3003C9BDF /* FilterSortTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0DAAEF20B1BEA3003C9BDF /* FilterSortTableViewCell.swift */; };
+		1E0DAAF220B1BEA3003C9BDF /* FilterSortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0DAAF020B1BEA3003C9BDF /* FilterSortTableViewCell.xib */; };
+		1E0DAAF720B1BEFF003C9BDF /* FilterTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0DAAF520B1BEFF003C9BDF /* FilterTypeTableViewCell.swift */; };
+		1E0DAAF820B1BEFF003C9BDF /* FilterTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0DAAF620B1BEFF003C9BDF /* FilterTypeTableViewCell.xib */; };
+		1E0DAAFB20B1BF12003C9BDF /* ExperienceBarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0DAAF920B1BF12003C9BDF /* ExperienceBarTableViewCell.swift */; };
+		1E0DAAFC20B1BF12003C9BDF /* ExperienceBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0DAAFA20B1BF12003C9BDF /* ExperienceBarTableViewCell.xib */; };
 		1E428B2A20B072E8001F5B18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B2920B072E8001F5B18 /* AppDelegate.swift */; };
-		1E428B2C20B072E8001F5B18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B2B20B072E8001F5B18 /* ViewController.swift */; };
+		1E428B2C20B072E8001F5B18 /* EvHiveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B2B20B072E8001F5B18 /* EvHiveHomeViewController.swift */; };
 		1E428B2F20B072E8001F5B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B2D20B072E8001F5B18 /* Main.storyboard */; };
 		1E428B3120B072EB001F5B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B3020B072EB001F5B18 /* Assets.xcassets */; };
 		1E428B3420B072EB001F5B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B3220B072EB001F5B18 /* LaunchScreen.storyboard */; };
 		1E428B3F20B072EB001F5B18 /* EvHiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B3E20B072EB001F5B18 /* EvHiveTests.swift */; };
 		1E428B4A20B072EB001F5B18 /* EvHiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B4920B072EB001F5B18 /* EvHiveUITests.swift */; };
+		1E428B5D20B0761E001F5B18 /* JobCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B5B20B0761E001F5B18 /* JobCardTableViewCell.swift */; };
+		1E428B5E20B0761E001F5B18 /* JobCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B5C20B0761E001F5B18 /* JobCardTableViewCell.xib */; };
+		1E428B6220B07F9D001F5B18 /* ChatBubbleSentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B6020B07F9D001F5B18 /* ChatBubbleSentTableViewCell.swift */; };
+		1E428B6320B07F9D001F5B18 /* ChatBubbleSentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B6120B07F9D001F5B18 /* ChatBubbleSentTableViewCell.xib */; };
+		1E428B6720B08738001F5B18 /* ChatBubbleReceivedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B6520B08738001F5B18 /* ChatBubbleReceivedTableViewCell.swift */; };
+		1E428B6820B08738001F5B18 /* ChatBubbleReceivedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B6620B08738001F5B18 /* ChatBubbleReceivedTableViewCell.xib */; };
+		1E428B6C20B16CAB001F5B18 /* ProfileIconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B6A20B16CAB001F5B18 /* ProfileIconTableViewCell.swift */; };
+		1E428B6D20B16CAB001F5B18 /* ProfileIconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B6B20B16CAB001F5B18 /* ProfileIconTableViewCell.xib */; };
+		1E428B7220B171A0001F5B18 /* JobCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B7020B171A0001F5B18 /* JobCategoryTableViewCell.swift */; };
+		1E428B7320B171A0001F5B18 /* JobCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B7120B171A0001F5B18 /* JobCategoryTableViewCell.xib */; };
+		1E428B7720B179CF001F5B18 /* SearchingJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B7520B179CF001F5B18 /* SearchingJobsTableViewCell.swift */; };
+		1E428B7820B179CF001F5B18 /* SearchingJobsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B7620B179CF001F5B18 /* SearchingJobsTableViewCell.xib */; };
+		1E428B7A20B18433001F5B18 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B7920B18433001F5B18 /* OptionViewController.swift */; };
+		23B1240AD24060BFE7E4F9AE /* Pods_EvHiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95DBA1D7C0EDFFC32FB4537 /* Pods_EvHiveTests.framework */; };
+		361D1A80D80869AC7B59EA7C /* Pods_EvHiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6AC6E915A41B8E321812EA /* Pods_EvHiveUITests.framework */; };
+		3D2960958AC690B7E31AFA9A /* Pods_EvHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B203E4CB6EB0694E82E0BC8E /* Pods_EvHive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +57,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112E7A07B1FEEA6DAC2F6EE9 /* Pods-EvHiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvHiveUITests/Pods-EvHiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0DAAEC20B1AF29003C9BDF /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		1E0DAAEF20B1BEA3003C9BDF /* FilterSortTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSortTableViewCell.swift; sourceTree = "<group>"; };
+		1E0DAAF020B1BEA3003C9BDF /* FilterSortTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterSortTableViewCell.xib; sourceTree = "<group>"; };
+		1E0DAAF520B1BEFF003C9BDF /* FilterTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTypeTableViewCell.swift; sourceTree = "<group>"; };
+		1E0DAAF620B1BEFF003C9BDF /* FilterTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterTypeTableViewCell.xib; sourceTree = "<group>"; };
+		1E0DAAF920B1BF12003C9BDF /* ExperienceBarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceBarTableViewCell.swift; sourceTree = "<group>"; };
+		1E0DAAFA20B1BF12003C9BDF /* ExperienceBarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceBarTableViewCell.xib; sourceTree = "<group>"; };
 		1E428B2620B072E8001F5B18 /* EvHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E428B2920B072E8001F5B18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E428B2B20B072E8001F5B18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E428B2B20B072E8001F5B18 /* EvHiveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvHiveHomeViewController.swift; sourceTree = "<group>"; };
 		1E428B2E20B072E8001F5B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E428B3020B072EB001F5B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E428B3320B072EB001F5B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +78,27 @@
 		1E428B4520B072EB001F5B18 /* EvHiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvHiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E428B4920B072EB001F5B18 /* EvHiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvHiveUITests.swift; sourceTree = "<group>"; };
 		1E428B4B20B072EB001F5B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E428B5B20B0761E001F5B18 /* JobCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardTableViewCell.swift; sourceTree = "<group>"; };
+		1E428B5C20B0761E001F5B18 /* JobCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobCardTableViewCell.xib; sourceTree = "<group>"; };
+		1E428B6020B07F9D001F5B18 /* ChatBubbleSentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleSentTableViewCell.swift; sourceTree = "<group>"; };
+		1E428B6120B07F9D001F5B18 /* ChatBubbleSentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatBubbleSentTableViewCell.xib; sourceTree = "<group>"; };
+		1E428B6520B08738001F5B18 /* ChatBubbleReceivedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleReceivedTableViewCell.swift; sourceTree = "<group>"; };
+		1E428B6620B08738001F5B18 /* ChatBubbleReceivedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatBubbleReceivedTableViewCell.xib; sourceTree = "<group>"; };
+		1E428B6A20B16CAB001F5B18 /* ProfileIconTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileIconTableViewCell.swift; sourceTree = "<group>"; };
+		1E428B6B20B16CAB001F5B18 /* ProfileIconTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileIconTableViewCell.xib; sourceTree = "<group>"; };
+		1E428B7020B171A0001F5B18 /* JobCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		1E428B7120B171A0001F5B18 /* JobCategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		1E428B7520B179CF001F5B18 /* SearchingJobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingJobsTableViewCell.swift; sourceTree = "<group>"; };
+		1E428B7620B179CF001F5B18 /* SearchingJobsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchingJobsTableViewCell.xib; sourceTree = "<group>"; };
+		1E428B7920B18433001F5B18 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		4AFEBD771E0442DC2CDA73B5 /* Pods-EvHiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvHiveTests/Pods-EvHiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F48577D5CBD8CE5C8C3ACA0 /* Pods-EvHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvHive/Pods-EvHive.debug.xcconfig"; sourceTree = "<group>"; };
+		63A2C88870D2621F2CCB89DB /* Pods-EvHiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvHiveUITests/Pods-EvHiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6831FE87DA05EEF6CBE769A1 /* Pods-EvHiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvHiveTests/Pods-EvHiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F6AC6E915A41B8E321812EA /* Pods_EvHiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvHiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B203E4CB6EB0694E82E0BC8E /* Pods_EvHive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95DBA1D7C0EDFFC32FB4537 /* Pods_EvHiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvHiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BB7A8FB08159559B5FB990 /* Pods-EvHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHive.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvHive/Pods-EvHive.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2960958AC690B7E31AFA9A /* Pods_EvHive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B1240AD24060BFE7E4F9AE /* Pods_EvHiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +122,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361D1A80D80869AC7B59EA7C /* Pods_EvHiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E0DAAEE20B1BE77003C9BDF /* FilterSortCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E0DAAEF20B1BEA3003C9BDF /* FilterSortTableViewCell.swift */,
+				1E0DAAF020B1BEA3003C9BDF /* FilterSortTableViewCell.xib */,
+			);
+			path = FilterSortCell;
+			sourceTree = "<group>";
+		};
+		1E0DAAF320B1BEBC003C9BDF /* FilterTimeLapseCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E0DAAF520B1BEFF003C9BDF /* FilterTypeTableViewCell.swift */,
+				1E0DAAF620B1BEFF003C9BDF /* FilterTypeTableViewCell.xib */,
+			);
+			path = FilterTimeLapseCell;
+			sourceTree = "<group>";
+		};
+		1E0DAAF420B1BEDB003C9BDF /* ExperienceBarCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E0DAAF920B1BF12003C9BDF /* ExperienceBarTableViewCell.swift */,
+				1E0DAAFA20B1BF12003C9BDF /* ExperienceBarTableViewCell.xib */,
+			);
+			path = ExperienceBarCell;
+			sourceTree = "<group>";
+		};
 		1E428B1D20B072E8001F5B18 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +163,8 @@
 				1E428B3D20B072EB001F5B18 /* EvHiveTests */,
 				1E428B4820B072EB001F5B18 /* EvHiveUITests */,
 				1E428B2720B072E8001F5B18 /* Products */,
+				BA261C8C28B42C84006D7C44 /* Pods */,
+				CC3068AEA70B9B6BBAD573F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +181,9 @@
 		1E428B2820B072E8001F5B18 /* EvHive */ = {
 			isa = PBXGroup;
 			children = (
+				1E428B6920B1420C001F5B18 /* ViewControllers */,
+				1E428B5920B0755F001F5B18 /* TableCells */,
 				1E428B2920B072E8001F5B18 /* AppDelegate.swift */,
-				1E428B2B20B072E8001F5B18 /* ViewController.swift */,
 				1E428B2D20B072E8001F5B18 /* Main.storyboard */,
 				1E428B3020B072EB001F5B18 /* Assets.xcassets */,
 				1E428B3220B072EB001F5B18 /* LaunchScreen.storyboard */,
@@ -125,6 +210,109 @@
 			path = EvHiveUITests;
 			sourceTree = "<group>";
 		};
+		1E428B5920B0755F001F5B18 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				1E0DAAF420B1BEDB003C9BDF /* ExperienceBarCell */,
+				1E0DAAF320B1BEBC003C9BDF /* FilterTimeLapseCell */,
+				1E0DAAEE20B1BE77003C9BDF /* FilterSortCell */,
+				1E428B7420B179AA001F5B18 /* SearchingJobsCell */,
+				1E428B6F20B17189001F5B18 /* JobCategoryCell */,
+				1E428B6E20B16D10001F5B18 /* ProfileIconCell */,
+				1E428B6420B086E2001F5B18 /* ChatBubbleReceivedCell */,
+				1E428B5F20B07F87001F5B18 /* ChatBubbleSentCell */,
+				1E428B5A20B07575001F5B18 /* JobCardTableCells */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		1E428B5A20B07575001F5B18 /* JobCardTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				1E428B5B20B0761E001F5B18 /* JobCardTableViewCell.swift */,
+				1E428B5C20B0761E001F5B18 /* JobCardTableViewCell.xib */,
+			);
+			path = JobCardTableCells;
+			sourceTree = "<group>";
+		};
+		1E428B5F20B07F87001F5B18 /* ChatBubbleSentCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E428B6020B07F9D001F5B18 /* ChatBubbleSentTableViewCell.swift */,
+				1E428B6120B07F9D001F5B18 /* ChatBubbleSentTableViewCell.xib */,
+			);
+			path = ChatBubbleSentCell;
+			sourceTree = "<group>";
+		};
+		1E428B6420B086E2001F5B18 /* ChatBubbleReceivedCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E428B6520B08738001F5B18 /* ChatBubbleReceivedTableViewCell.swift */,
+				1E428B6620B08738001F5B18 /* ChatBubbleReceivedTableViewCell.xib */,
+			);
+			path = ChatBubbleReceivedCell;
+			sourceTree = "<group>";
+		};
+		1E428B6920B1420C001F5B18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E428B2B20B072E8001F5B18 /* EvHiveHomeViewController.swift */,
+				1E428B7920B18433001F5B18 /* OptionViewController.swift */,
+				1E0DAAEC20B1AF29003C9BDF /* FilterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1E428B6E20B16D10001F5B18 /* ProfileIconCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E428B6A20B16CAB001F5B18 /* ProfileIconTableViewCell.swift */,
+				1E428B6B20B16CAB001F5B18 /* ProfileIconTableViewCell.xib */,
+			);
+			path = ProfileIconCell;
+			sourceTree = "<group>";
+		};
+		1E428B6F20B17189001F5B18 /* JobCategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E428B7020B171A0001F5B18 /* JobCategoryTableViewCell.swift */,
+				1E428B7120B171A0001F5B18 /* JobCategoryTableViewCell.xib */,
+			);
+			path = JobCategoryCell;
+			sourceTree = "<group>";
+		};
+		1E428B7420B179AA001F5B18 /* SearchingJobsCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E428B7520B179CF001F5B18 /* SearchingJobsTableViewCell.swift */,
+				1E428B7620B179CF001F5B18 /* SearchingJobsTableViewCell.xib */,
+			);
+			path = SearchingJobsCell;
+			sourceTree = "<group>";
+		};
+		BA261C8C28B42C84006D7C44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F48577D5CBD8CE5C8C3ACA0 /* Pods-EvHive.debug.xcconfig */,
+				D0BB7A8FB08159559B5FB990 /* Pods-EvHive.release.xcconfig */,
+				4AFEBD771E0442DC2CDA73B5 /* Pods-EvHiveTests.debug.xcconfig */,
+				6831FE87DA05EEF6CBE769A1 /* Pods-EvHiveTests.release.xcconfig */,
+				112E7A07B1FEEA6DAC2F6EE9 /* Pods-EvHiveUITests.debug.xcconfig */,
+				63A2C88870D2621F2CCB89DB /* Pods-EvHiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC3068AEA70B9B6BBAD573F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B203E4CB6EB0694E82E0BC8E /* Pods_EvHive.framework */,
+				C95DBA1D7C0EDFFC32FB4537 /* Pods_EvHiveTests.framework */,
+				6F6AC6E915A41B8E321812EA /* Pods_EvHiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E428B4E20B072EB001F5B18 /* Build configuration list for PBXNativeTarget "EvHive" */;
 			buildPhases = (
+				783E902AC7909639BD0FEC83 /* [CP] Check Pods Manifest.lock */,
 				1E428B2220B072E8001F5B18 /* Sources */,
 				1E428B2320B072E8001F5B18 /* Frameworks */,
 				1E428B2420B072E8001F5B18 /* Resources */,
+				A5954325713B10BA97D69FEE /* [CP] Embed Pods Frameworks */,
+				67F998250ECE9437D243B9A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E428B5120B072EB001F5B18 /* Build configuration list for PBXNativeTarget "EvHiveTests" */;
 			buildPhases = (
+				53AF7B25C0570BDF4D298AC0 /* [CP] Check Pods Manifest.lock */,
 				1E428B3620B072EB001F5B18 /* Sources */,
 				1E428B3720B072EB001F5B18 /* Frameworks */,
 				1E428B3820B072EB001F5B18 /* Resources */,
+				B7BD9D4B3E5D464E1DC23912 /* [CP] Embed Pods Frameworks */,
+				B87641DA33923B16FA82C2BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +361,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E428B5420B072EB001F5B18 /* Build configuration list for PBXNativeTarget "EvHiveUITests" */;
 			buildPhases = (
+				AA435C5BE4AB4127F41A581A /* [CP] Check Pods Manifest.lock */,
 				1E428B4120B072EB001F5B18 /* Sources */,
 				1E428B4220B072EB001F5B18 /* Frameworks */,
 				1E428B4320B072EB001F5B18 /* Resources */,
+				F04DBF4B663FB1B838819280 /* [CP] Embed Pods Frameworks */,
+				B6661CECDD52B763A7A3D9E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +427,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E428B3420B072EB001F5B18 /* LaunchScreen.storyboard in Resources */,
+				1E0DAAF220B1BEA3003C9BDF /* FilterSortTableViewCell.xib in Resources */,
+				1E428B7820B179CF001F5B18 /* SearchingJobsTableViewCell.xib in Resources */,
+				1E428B7320B171A0001F5B18 /* JobCategoryTableViewCell.xib in Resources */,
+				1E428B5E20B0761E001F5B18 /* JobCardTableViewCell.xib in Resources */,
 				1E428B3120B072EB001F5B18 /* Assets.xcassets in Resources */,
+				1E428B6320B07F9D001F5B18 /* ChatBubbleSentTableViewCell.xib in Resources */,
+				1E428B6820B08738001F5B18 /* ChatBubbleReceivedTableViewCell.xib in Resources */,
+				1E0DAAF820B1BEFF003C9BDF /* FilterTypeTableViewCell.xib in Resources */,
+				1E428B6D20B16CAB001F5B18 /* ProfileIconTableViewCell.xib in Resources */,
 				1E428B2F20B072E8001F5B18 /* Main.storyboard in Resources */,
+				1E0DAAFC20B1BF12003C9BDF /* ExperienceBarTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +457,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53AF7B25C0570BDF4D298AC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvHiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F998250ECE9437D243B9A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvHive/Pods-EvHive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783E902AC7909639BD0FEC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvHive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5954325713B10BA97D69FEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvHive/Pods-EvHive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA435C5BE4AB4127F41A581A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvHiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6661CECDD52B763A7A3D9E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvHiveUITests/Pods-EvHiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7BD9D4B3E5D464E1DC23912 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvHiveTests/Pods-EvHiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87641DA33923B16FA82C2BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvHiveTests/Pods-EvHiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04DBF4B663FB1B838819280 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvHiveUITests/Pods-EvHiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E428B2220B072E8001F5B18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E428B2C20B072E8001F5B18 /* ViewController.swift in Sources */,
+				1E428B7720B179CF001F5B18 /* SearchingJobsTableViewCell.swift in Sources */,
+				1E428B5D20B0761E001F5B18 /* JobCardTableViewCell.swift in Sources */,
+				1E428B7A20B18433001F5B18 /* OptionViewController.swift in Sources */,
+				1E428B2C20B072E8001F5B18 /* EvHiveHomeViewController.swift in Sources */,
+				1E0DAAFB20B1BF12003C9BDF /* ExperienceBarTableViewCell.swift in Sources */,
+				1E0DAAF120B1BEA3003C9BDF /* FilterSortTableViewCell.swift in Sources */,
+				1E0DAAED20B1AF29003C9BDF /* FilterViewController.swift in Sources */,
 				1E428B2A20B072E8001F5B18 /* AppDelegate.swift in Sources */,
+				1E428B6220B07F9D001F5B18 /* ChatBubbleSentTableViewCell.swift in Sources */,
+				1E428B6C20B16CAB001F5B18 /* ProfileIconTableViewCell.swift in Sources */,
+				1E428B7220B171A0001F5B18 /* JobCategoryTableViewCell.swift in Sources */,
+				1E0DAAF720B1BEFF003C9BDF /* FilterTypeTableViewCell.swift in Sources */,
+				1E428B6720B08738001F5B18 /* ChatBubbleReceivedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +792,7 @@
 		};
 		1E428B4F20B072EB001F5B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F48577D5CBD8CE5C8C3ACA0 /* Pods-EvHive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +810,7 @@
 		};
 		1E428B5020B072EB001F5B18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BB7A8FB08159559B5FB990 /* Pods-EvHive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +828,7 @@
 		};
 		1E428B5220B072EB001F5B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFEBD771E0442DC2CDA73B5 /* Pods-EvHiveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +849,7 @@
 		};
 		1E428B5320B072EB001F5B18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6831FE87DA05EEF6CBE769A1 /* Pods-EvHiveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +870,7 @@
 		};
 		1E428B5520B072EB001F5B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112E7A07B1FEEA6DAC2F6EE9 /* Pods-EvHiveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +890,7 @@
 		};
 		1E428B5620B072EB001F5B18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A2C88870D2621F2CCB89DB /* Pods-EvHiveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
