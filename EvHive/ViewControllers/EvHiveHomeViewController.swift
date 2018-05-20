@@ -28,10 +28,6 @@ enum tableSections: Int {
         }
     }
     
-    static func numberOfSections() -> Int {
-        return 3
-    }
-    
 }
 
 class EvHiveHomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {

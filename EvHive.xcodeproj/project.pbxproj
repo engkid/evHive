@@ -34,6 +34,10 @@
 		1E428B7720B179CF001F5B18 /* SearchingJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B7520B179CF001F5B18 /* SearchingJobsTableViewCell.swift */; };
 		1E428B7820B179CF001F5B18 /* SearchingJobsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E428B7620B179CF001F5B18 /* SearchingJobsTableViewCell.xib */; };
 		1E428B7A20B18433001F5B18 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E428B7920B18433001F5B18 /* OptionViewController.swift */; };
+		1E8DAA5920B1CE4300C3FFB3 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8DAA5820B1CE4300C3FFB3 /* HeaderView.xib */; };
+		1E8DAA5B20B1CE7C00C3FFB3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DAA5A20B1CE7C00C3FFB3 /* HeaderView.swift */; };
+		1E8DAA5E20B1D5E700C3FFB3 /* FilterButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8DAA5D20B1D5E700C3FFB3 /* FilterButtonView.xib */; };
+		1E8DAA6020B1D6B300C3FFB3 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8DAA5F20B1D6B300C3FFB3 /* FilterButtonView.swift */; };
 		23B1240AD24060BFE7E4F9AE /* Pods_EvHiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95DBA1D7C0EDFFC32FB4537 /* Pods_EvHiveTests.framework */; };
 		361D1A80D80869AC7B59EA7C /* Pods_EvHiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6AC6E915A41B8E321812EA /* Pods_EvHiveUITests.framework */; };
 		3D2960958AC690B7E31AFA9A /* Pods_EvHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B203E4CB6EB0694E82E0BC8E /* Pods_EvHive.framework */; };
@@ -91,6 +95,10 @@
 		1E428B7520B179CF001F5B18 /* SearchingJobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingJobsTableViewCell.swift; sourceTree = "<group>"; };
 		1E428B7620B179CF001F5B18 /* SearchingJobsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchingJobsTableViewCell.xib; sourceTree = "<group>"; };
 		1E428B7920B18433001F5B18 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		1E8DAA5820B1CE4300C3FFB3 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		1E8DAA5A20B1CE7C00C3FFB3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1E8DAA5D20B1D5E700C3FFB3 /* FilterButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterButtonView.xib; sourceTree = "<group>"; };
+		1E8DAA5F20B1D6B300C3FFB3 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
 		4AFEBD771E0442DC2CDA73B5 /* Pods-EvHiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvHiveTests/Pods-EvHiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F48577D5CBD8CE5C8C3ACA0 /* Pods-EvHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvHive/Pods-EvHive.debug.xcconfig"; sourceTree = "<group>"; };
 		63A2C88870D2621F2CCB89DB /* Pods-EvHiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvHiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvHiveUITests/Pods-EvHiveUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +221,8 @@
 		1E428B5920B0755F001F5B18 /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
+				1E8DAA5C20B1D5CD00C3FFB3 /* FilterButtonView */,
+				1E8DAA5320B1CDE300C3FFB3 /* HeaderView */,
 				1E0DAAF420B1BEDB003C9BDF /* ExperienceBarCell */,
 				1E0DAAF320B1BEBC003C9BDF /* FilterTimeLapseCell */,
 				1E0DAAEE20B1BE77003C9BDF /* FilterSortCell */,
@@ -288,6 +298,24 @@
 				1E428B7620B179CF001F5B18 /* SearchingJobsTableViewCell.xib */,
 			);
 			path = SearchingJobsCell;
+			sourceTree = "<group>";
+		};
+		1E8DAA5320B1CDE300C3FFB3 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				1E8DAA5A20B1CE7C00C3FFB3 /* HeaderView.swift */,
+				1E8DAA5820B1CE4300C3FFB3 /* HeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		1E8DAA5C20B1D5CD00C3FFB3 /* FilterButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1E8DAA5F20B1D6B300C3FFB3 /* FilterButtonView.swift */,
+				1E8DAA5D20B1D5E700C3FFB3 /* FilterButtonView.xib */,
+			);
+			path = FilterButtonView;
 			sourceTree = "<group>";
 		};
 		BA261C8C28B42C84006D7C44 /* Pods */ = {
@@ -426,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8DAA5920B1CE4300C3FFB3 /* HeaderView.xib in Resources */,
 				1E428B3420B072EB001F5B18 /* LaunchScreen.storyboard in Resources */,
 				1E0DAAF220B1BEA3003C9BDF /* FilterSortTableViewCell.xib in Resources */,
 				1E428B7820B179CF001F5B18 /* SearchingJobsTableViewCell.xib in Resources */,
@@ -433,6 +462,7 @@
 				1E428B5E20B0761E001F5B18 /* JobCardTableViewCell.xib in Resources */,
 				1E428B3120B072EB001F5B18 /* Assets.xcassets in Resources */,
 				1E428B6320B07F9D001F5B18 /* ChatBubbleSentTableViewCell.xib in Resources */,
+				1E8DAA5E20B1D5E700C3FFB3 /* FilterButtonView.xib in Resources */,
 				1E428B6820B08738001F5B18 /* ChatBubbleReceivedTableViewCell.xib in Resources */,
 				1E0DAAF820B1BEFF003C9BDF /* FilterTypeTableViewCell.xib in Resources */,
 				1E428B6D20B16CAB001F5B18 /* ProfileIconTableViewCell.xib in Resources */,
@@ -615,6 +645,7 @@
 				1E428B2C20B072E8001F5B18 /* EvHiveHomeViewController.swift in Sources */,
 				1E0DAAFB20B1BF12003C9BDF /* ExperienceBarTableViewCell.swift in Sources */,
 				1E0DAAF120B1BEA3003C9BDF /* FilterSortTableViewCell.swift in Sources */,
+				1E8DAA6020B1D6B300C3FFB3 /* FilterButtonView.swift in Sources */,
 				1E0DAAED20B1AF29003C9BDF /* FilterViewController.swift in Sources */,
 				1E428B2A20B072E8001F5B18 /* AppDelegate.swift in Sources */,
 				1E428B6220B07F9D001F5B18 /* ChatBubbleSentTableViewCell.swift in Sources */,
@@ -622,6 +653,7 @@
 				1E428B7220B171A0001F5B18 /* JobCategoryTableViewCell.swift in Sources */,
 				1E0DAAF720B1BEFF003C9BDF /* FilterTypeTableViewCell.swift in Sources */,
 				1E428B6720B08738001F5B18 /* ChatBubbleReceivedTableViewCell.swift in Sources */,
+				1E8DAA5B20B1CE7C00C3FFB3 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
